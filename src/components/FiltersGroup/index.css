@@ -1,0 +1,63 @@
+.filters-group-container {
+  margin-top: 16px;
+  font-family: 'roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-input-container {
+  background-color: #f1f5f9;
+  border-radius: 7px;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-input {
+  outline: none;
+  border: 0;
+  width: 70%;
+  background-color: transparent;
+  padding-left: 10px;
+}
+
+.category-list-container {
+  list-style: none;
+  padding-left: 0;
+}
+
+.category-list-item {
+  margin-top: 10px;
+  color: #64748b;
+  font-size: 15px;
+}
+
+.category-heading {
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 600;
+}
+.rating-item {
+  display: flex;
+  color: #64748b;
+}
+.rating-image {
+  width: 150px;
+  height: 20px;
+}
+.filters-button {
+  background-color: transparent;
+  border: 2px solid #0967d2;
+  border-radius: 5px;
+  color: #0967d2;
+  padding: 5px;
+}
